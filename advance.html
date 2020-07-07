@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!----- This page is made by Kamal Karnatak for the CS50 Course "Web Prograaming" --> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylea.css" type="text/css" >
+<title> Google Search for CS50 Project</title>
+</head>
+<body>
+    <div class="navBar">
+        <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+        <a class="topButton" href="index.html"> Google Search</a>
+        <a class="topButton" href="image.html"> Image Search</a>
+    </div> 
+
+    <br>
+    <div class="appbar">
+        <label style="margin-left:10px;">Advanced Search</label>
+    </div>
+    <form class="advancedSearch" action="https://google.com/search">
+
+        <table>
+            <thead>
+                <tr>
+                    <th><p class="colOneHeader">Find pages with...</p></th>
+                    <th><p><!--Empty Table Header by KK--></p></th>
+                    <th><p class="colThreeHeader">To do this in the search box.</p></th>
+                 </tr>
+            </thead>
+    
+            <tbody>
+                <tr>
+                    <td><p class="colOne">all these words:</p></td>
+                    <td><input id="allWord" type="text" class="form-control" name="as_q" ></td>
+                    <td><p class="colThree">Type the important words: tri-colour rat terrier</p></td>
+                </tr>
+    
+                <tr>
+                    <td><p class="colOne">this exact word or phrase:</p></td>
+                    <td><input id="exactWord" type="text" class="form-control" name="as_epq" ></td>
+                    <td><p class="colThree">Put exact words in quotes: "rat terrier"</p></td>
+                </tr>
+    
+                <tr>
+                    <td><p class="colOne">any of these words:</p></td>
+                    <td><input id="anyWord" type="text" class="form-control" name="as_oq" ></td>
+                    <td><p class="colThree">Type OR between all the words you want: miniature OR standard</p></td>
+                </tr>
+    
+                <tr>
+                    <td><p class="colOne">none of these words:</p></td>
+                    <td><input id="noneWord" type="text" class="form-control" name="as_eq" ></td>
+                    <td><p class="colThree">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</p></td>
+                </tr>
+    
+            </tbody>
+        </table>
+        <hr />
+    
+        <button id="searchBtn" type="submit" class="btn btn-primary" value="Advanced Search">Advanced Search</button>
+    
+    </form>
+    <h6> This page is made by Kamal Karnatak for the CS50 Course "Web Prograaming"</h6>
+    </div>
+</body>
+
+</html> 
